@@ -3,14 +3,14 @@ class Cat{
   constructor(name,sex){
     this.name=name
     this.sex=sex
-    function speak(){return `${this.name} says meow!`}
+    function speak(){ `${this.name} says meow!`}
   }
 }
 class Dog{
     constructor(name,sex){
     this.name=name
     this.sex=sex
-    function speak(){return `${this.name} says woof!`}
+    function speak(){ `${this.name} says woof!`}
 }
 class Bird{
     constructor(name,sex){
